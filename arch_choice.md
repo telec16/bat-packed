@@ -27,3 +27,12 @@ Only 7 cells max : https://www.ti.com/power-management/battery-management/charge
 # Microcontroller and communication
 
 CAN transceiver: MCP2551
+
+##Microcontroller
+STM32F072CBT6
+- Package : LQFP48
+- Cortex M0
+- CAN
+- I2C
+- USB (crystal-less)
+- Low cost
