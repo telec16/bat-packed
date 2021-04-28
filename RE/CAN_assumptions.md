@@ -1,9 +1,40 @@
+# IDs and frame structure
+
+## IDs
+
+| Name   | Priority | R | DP | PF | PS | SA |
+|--------|----------|---|----|----|----|----|
+| Length | 3        | 1 | 1  | 8  | 8  | 8  |
+|Description| | Reserved | Data Page | PDU Format | PDU Specific | Source Address |
+
+- PF > 0xF0: Broadcast -> PS is "message id"
+- PF < 0xF0: P2P -> PS is destination address
+
+## Frame Structure
+
+| PS | Description |
+|----|-------------|
+| 0x | State       |
+| 07 | Events      |
+| 1x | Errors      |
+| 2x | ?           |
+| 3x | ?           |
+
+| PS | Description  | Length | Value min | Value max | Unit |
+|----|--------------|--------|-----------|-----------|------|
+| 01 | Voltage      | 8      | 0         | 100'000   | 1mV  |
+| 02 | Current      | 4      | float     | float     | ?A   |
+| 03 | Temperature  |        |           |           |      |
+| 04 | Temperature  |        |           |           |      |
+| 05 | Charge/Health|        |           |           |      |
+
+
 # Used ids
 
-- `8482D0`	Host?
-- `8482D7`	Host?
-- `1840F4D0`	Battery?
-- `18FFxxD0`	Battery?
+- `8482D0`	Battery
+- `8482D7`	Host
+- `1840F4D0`	Battery
+- `18FFxxD0`	Battery
 
 Where xx can be:
 
@@ -56,8 +87,13 @@ Where xx can be:
 
 # Initialization
 
-Host (at least `8482Dx`) seems to be the initiator.
+Battery (`D0`) seems to be the initiator.
 
 # Runtime
 
 ??
+
+# Inspiration
+
+- Nearly sames ids: https://evwest.com/support/CAN%20Bus%20Communication%20Spec.pdf
+- Exact same ids: https://upcommons.upc.edu/bitstream/handle/2117/100598/Annex_TFG_Maria_Lorente.pdf (p. 183)
