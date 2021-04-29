@@ -1,4 +1,4 @@
-# IDs and frame structure
+# Typical IDs and frame structure
 
 ## IDs
 
@@ -8,7 +8,7 @@
 |Description| | Reserved | Data Page | PDU Format | PDU Specific | Source Address |
 
 - PF > 0xF0: Broadcast -> PS is "message id"
-- PF < 0xF0: P2P -> PS is destination address
+- PF < 0xF0: P2P -> PS is Destination Address
 
 ## Frame Structure
 
@@ -31,8 +31,8 @@
 
 # Used ids
 
-- `8482D0`	Battery
-- `8482D7`	Host
+- `008482D0`	Battery
+- `008482D7`	Host
 - `1840F4D0`	Battery
 - `18FFxxD0`	Battery
 
@@ -58,10 +58,10 @@ Where xx can be:
 | F |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 
 
-# Data length
+## Data length
 
-- `8482D0`	8
-- `8482D7`	8
+- `008482D0`	8
+- `008482D7`	8
 - `1840F4D0`	8
 - `18FFxxD0`
 
@@ -84,12 +84,29 @@ Where xx can be:
 | E |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | F |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 
+## ID description
 
-# Initialization
+| Name       | Priority | DP | PF | PS/DA | SA |
+|------------|----------|----|----|-------|----|
+| `008482D0` | High(0)  | 0  | 84 | --/82 | D0 |  
+| `008482D7` | High(0)  | 0  | 84 | --/82 | D7 |
+| `1840F4D0` | Low (6)  | 0  | 40 | --/F4 | D0 |
+| `18FFxxD0` | Low (6)  | 0  | FF | xx/-- | D0 |
+
+That's a total of 5 differents addresses:
+- 82 ?
+- 84 ?
+- F4 ?
+- D0 Battery
+- D7 ?
+
+# What to do ?
+
+## Initialization
 
 Battery (`D0`) seems to be the initiator.
 
-# Runtime
+## Runtime
 
 ??
 
