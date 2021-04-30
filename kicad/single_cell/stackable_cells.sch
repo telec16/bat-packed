@@ -27,13 +27,13 @@ $EndComp
 $Comp
 L Connector:Conn_01x08_Female J4
 U 1 1 608868D9
-P 2800 2400
-F 0 "J4" H 2650 1800 50  0000 L CNN
-F 1 "bal_even_right" H 2450 1900 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Horizontal" H 2800 2400 50  0001 C CNN
-F 3 "~" H 2800 2400 50  0001 C CNN
-	1    2800 2400
-	1    0    0    1   
+P 2800 2300
+F 0 "J4" H 2650 2800 50  0000 L CNN
+F 1 "bal_even_right" H 2450 2700 50  0000 L CNN
+F 2 "telec:Castellated_1x08_P2.54mm" H 2800 2300 50  0001 C CNN
+F 3 "~" H 2800 2300 50  0001 C CNN
+	1    2800 2300
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x08_Female J6
@@ -41,7 +41,7 @@ U 1 1 60887DCA
 P 2800 3350
 F 0 "J6" H 2650 3850 50  0000 L CNN
 F 1 "bal_odd_right" H 2500 3750 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Horizontal" H 2800 3350 50  0001 C CNN
+F 2 "telec:Castellated_1x08_P2.54mm" H 2800 3350 50  0001 C CNN
 F 3 "~" H 2800 3350 50  0001 C CNN
 	1    2800 3350
 	1    0    0    -1  
@@ -50,9 +50,9 @@ $Comp
 L Connector:Conn_01x08_Male J5
 U 1 1 608882E0
 P 1300 3350
-F 0 "J5" H 1408 3831 50  0000 C CNN
+F 0 "J5" H 1400 3850 50  0000 C CNN
 F 1 "bal_odd_left" H 1408 3740 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal" H 1300 3350 50  0001 C CNN
+F 2 "telec:Castellated_1x08_P2.54mm" H 1300 3350 50  0001 C CNN
 F 3 "~" H 1300 3350 50  0001 C CNN
 	1    1300 3350
 	1    0    0    -1  
@@ -106,7 +106,7 @@ U 1 1 6089A9FB
 P 2850 1100
 F 0 "J1" H 2700 1300 50  0000 L CNN
 F 1 "cell_+" H 2650 1200 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal" H 2850 1100 50  0001 C CNN
+F 2 "telec:Castellated_1x01_P5.08mm" H 2850 1100 50  0001 C CNN
 F 3 "~" H 2850 1100 50  0001 C CNN
 	1    2850 1100
 	1    0    0    -1  
@@ -117,7 +117,7 @@ U 1 1 6089B7C0
 P 1300 1700
 F 0 "J2" H 1408 1881 50  0000 C CNN
 F 1 "cell_-" H 1408 1790 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 1300 1700 50  0001 C CNN
+F 2 "telec:Castellated_1x01_P5.08mm" H 1300 1700 50  0001 C CNN
 F 3 "~" H 1300 1700 50  0001 C CNN
 	1    1300 1700
 	1    0    0    -1  
@@ -184,13 +184,13 @@ $EndComp
 $Comp
 L Connector:Conn_01x08_Male J3
 U 1 1 6088705C
-P 1300 2400
-F 0 "J3" H 1450 1850 50  0000 R CNN
-F 1 "bal_even_left" H 1650 1900 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal" H 1300 2400 50  0001 C CNN
-F 3 "~" H 1300 2400 50  0001 C CNN
-	1    1300 2400
-	1    0    0    1   
+P 1300 2300
+F 0 "J3" H 1450 2800 50  0000 R CNN
+F 1 "bal_even_left" H 1600 2700 50  0000 R CNN
+F 2 "telec:Castellated_1x08_P2.54mm" H 1300 2300 50  0001 C CNN
+F 3 "~" H 1300 2300 50  0001 C CNN
+	1    1300 2300
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1500 3150 2600 3150
