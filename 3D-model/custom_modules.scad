@@ -1,7 +1,7 @@
 //PCB specific
 hole_spacing_x = 15;
-hole_spacing_y = 75;
-hole_radius = 1.5;
+hole_spacing_y = 73;
+hole_radius = .9;
 cell_size = 20;
 front_size = 40;
 back_size = 10;

@@ -13,3 +13,5 @@ translate([radius, radius]){
     }
     bottom_plate();
 }
+
+translate([38, 96.5, 6]) import("../kicad/four_pack/four_cells.stl");
