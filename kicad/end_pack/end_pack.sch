@@ -14,8 +14,294 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
+L Connector:Conn_01x01_Female J2
+U 1 1 6099566E
+P 1100 1050
+F 0 "J2" H 950 1250 50  0000 L CNN
+F 1 "cell_+" H 900 1150 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit" H 1100 1050 50  0001 C CNN
+F 3 "~" H 1100 1050 50  0001 C CNN
+	1    1100 1050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1050 2050 1050
+$Comp
+L Device:LED D1
+U 1 1 6099CF93
+P 1000 4050
+F 0 "D1" H 750 4000 50  0000 C CNN
+F 1 "LED" H 1150 4000 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 1000 4050 50  0001 C CNN
+F 3 "~" H 1000 4050 50  0001 C CNN
+	1    1000 4050
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6099D9BA
+P 1350 4050
+F 0 "R1" V 1300 3900 50  0000 C CNN
+F 1 "1k" V 1350 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1280 4050 50  0001 C CNN
+F 3 "~" H 1350 4050 50  0001 C CNN
+	1    1350 4050
+	0    -1   1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 6099E6D0
+P 1900 4150
+F 0 "SW1" H 1700 4200 50  0000 C CNN
+F 1 "SW_Push" H 1900 4300 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 1900 4350 50  0001 C CNN
+F 3 "~" H 1900 4350 50  0001 C CNN
+	1    1900 4150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 4450 2000 4450
+$Comp
+L power:GND #PWR01
+U 1 1 609AE85C
+P 2000 4450
+F 0 "#PWR01" H 2000 4200 50  0001 C CNN
+F 1 "GND" V 2005 4322 50  0000 R CNN
+F 2 "" H 2000 4450 50  0001 C CNN
+F 3 "" H 2000 4450 50  0001 C CNN
+	1    2000 4450
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2250 4050 1500 4050
+Wire Wire Line
+	1200 4050 1150 4050
+Wire Wire Line
+	850  4050 650  4050
+$Comp
+L power:GND #PWR03
+U 1 1 609BE586
+P 650 4050
+F 0 "#PWR03" H 650 3800 50  0001 C CNN
+F 1 "GND" V 655 3922 50  0000 R CNN
+F 2 "" H 650 4050 50  0001 C CNN
+F 3 "" H 650 4050 50  0001 C CNN
+	1    650  4050
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2250 4150 2100 4150
+Wire Wire Line
+	1700 4150 650  4150
+$Comp
+L power:GND #PWR02
+U 1 1 609DDB47
+P 650 4150
+F 0 "#PWR02" H 650 3900 50  0001 C CNN
+F 1 "GND" V 655 4022 50  0000 R CNN
+F 2 "" H 650 4150 50  0001 C CNN
+F 3 "" H 650 4150 50  0001 C CNN
+	1    650  4150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 609DF9D7
+P 1000 4350
+F 0 "D2" H 750 4300 50  0000 C CNN
+F 1 "LED" H 1150 4300 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 1000 4350 50  0001 C CNN
+F 3 "~" H 1000 4350 50  0001 C CNN
+	1    1000 4350
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 609DF9DD
+P 1350 4350
+F 0 "R2" V 1300 4200 50  0000 C CNN
+F 1 "1k" V 1350 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1280 4350 50  0001 C CNN
+F 3 "~" H 1350 4350 50  0001 C CNN
+	1    1350 4350
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2250 4350 1500 4350
+Wire Wire Line
+	1200 4350 1150 4350
+Wire Wire Line
+	850  4350 650  4350
+$Comp
+L power:GND #PWR04
+U 1 1 609DF9E6
+P 650 4350
+F 0 "#PWR04" H 650 4100 50  0001 C CNN
+F 1 "GND" V 655 4222 50  0000 R CNN
+F 2 "" H 650 4350 50  0001 C CNN
+F 3 "" H 650 4350 50  0001 C CNN
+	1    650  4350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 609E6C88
+P 1000 4250
+F 0 "D3" H 750 4200 50  0000 C CNN
+F 1 "LED" H 1150 4200 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 1000 4250 50  0001 C CNN
+F 3 "~" H 1000 4250 50  0001 C CNN
+	1    1000 4250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 609E6C8E
+P 1350 4250
+F 0 "R3" V 1300 4100 50  0000 C CNN
+F 1 "1k" V 1350 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1280 4250 50  0001 C CNN
+F 3 "~" H 1350 4250 50  0001 C CNN
+	1    1350 4250
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2250 4250 1500 4250
+Wire Wire Line
+	1200 4250 1150 4250
+Wire Wire Line
+	850  4250 650  4250
+$Comp
+L power:GND #PWR05
+U 1 1 609E6C97
+P 650 4250
+F 0 "#PWR05" H 650 4000 50  0001 C CNN
+F 1 "GND" V 655 4122 50  0000 R CNN
+F 2 "" H 650 4250 50  0001 C CNN
+F 3 "" H 650 4250 50  0001 C CNN
+	1    650  4250
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 609EDB42
+P 1000 4550
+F 0 "D4" H 750 4500 50  0000 C CNN
+F 1 "LED" H 1150 4500 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 1000 4550 50  0001 C CNN
+F 3 "~" H 1000 4550 50  0001 C CNN
+	1    1000 4550
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 609EDB48
+P 1350 4550
+F 0 "R4" V 1300 4400 50  0000 C CNN
+F 1 "1k" V 1350 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1280 4550 50  0001 C CNN
+F 3 "~" H 1350 4550 50  0001 C CNN
+	1    1350 4550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2250 4550 1500 4550
+Wire Wire Line
+	1200 4550 1150 4550
+Wire Wire Line
+	850  4550 650  4550
+$Comp
+L power:GND #PWR06
+U 1 1 609EDB51
+P 650 4550
+F 0 "#PWR06" H 650 4300 50  0001 C CNN
+F 1 "GND" V 655 4422 50  0000 R CNN
+F 2 "" H 650 4550 50  0001 C CNN
+F 3 "" H 650 4550 50  0001 C CNN
+	1    650  4550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 609F4F1D
+P 1000 4650
+F 0 "D5" H 750 4600 50  0000 C CNN
+F 1 "LED" H 1150 4600 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 1000 4650 50  0001 C CNN
+F 3 "~" H 1000 4650 50  0001 C CNN
+	1    1000 4650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 609F4F23
+P 1350 4650
+F 0 "R5" V 1300 4500 50  0000 C CNN
+F 1 "1k" V 1350 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1280 4650 50  0001 C CNN
+F 3 "~" H 1350 4650 50  0001 C CNN
+	1    1350 4650
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2250 4650 1500 4650
+Wire Wire Line
+	1200 4650 1150 4650
+Wire Wire Line
+	850  4650 650  4650
+$Comp
+L power:GND #PWR07
+U 1 1 609F4F2C
+P 650 4650
+F 0 "#PWR07" H 650 4400 50  0001 C CNN
+F 1 "GND" V 655 4522 50  0000 R CNN
+F 2 "" H 650 4650 50  0001 C CNN
+F 3 "" H 650 4650 50  0001 C CNN
+	1    650  4650
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 609FC735
+P 1000 4750
+F 0 "D6" H 750 4700 50  0000 C CNN
+F 1 "LED" H 1150 4700 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 1000 4750 50  0001 C CNN
+F 3 "~" H 1000 4750 50  0001 C CNN
+	1    1000 4750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 609FC73B
+P 1350 4750
+F 0 "R6" V 1300 4600 50  0000 C CNN
+F 1 "1k" V 1350 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1280 4750 50  0001 C CNN
+F 3 "~" H 1350 4750 50  0001 C CNN
+	1    1350 4750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2250 4750 1500 4750
+Wire Wire Line
+	1200 4750 1150 4750
+Wire Wire Line
+	850  4750 650  4750
+$Comp
+L power:GND #PWR08
+U 1 1 609FC744
+P 650 4750
+F 0 "#PWR08" H 650 4500 50  0001 C CNN
+F 1 "GND" V 655 4622 50  0000 R CNN
+F 2 "" H 650 4750 50  0001 C CNN
+F 3 "" H 650 4750 50  0001 C CNN
+	1    650  4750
+	0    1    -1   0   
+$EndComp
+$Comp
 L Connector:Conn_01x08_Female J4
-U 1 1 608868D9
+U 1 1 608CC7D8
 P 2450 2250
 F 0 "J4" H 2300 2750 50  0000 L CNN
 F 1 "bal_even_right" H 2100 2650 50  0000 L CNN
@@ -24,38 +310,6 @@ F 3 "~" H 2450 2250 50  0001 C CNN
 	1    2450 2250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x08_Male J5
-U 1 1 608882E0
-P 950 3300
-F 0 "J5" H 1050 3800 50  0000 C CNN
-F 1 "bal_odd_left" H 1058 3690 50  0000 C CNN
-F 2 "telec:Castellated_1x08_P2.54mm" H 950 3300 50  0001 C CNN
-F 3 "~" H 950 3300 50  0001 C CNN
-	1    950  3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 1950 1950 1950
-Wire Wire Line
-	1950 1950 1950 2050
-Wire Wire Line
-	1150 2050 1850 2050
-Wire Wire Line
-	1850 2050 1850 2150
-Wire Wire Line
-	1150 2150 1750 2150
-Wire Wire Line
-	1750 2150 1750 2250
-Wire Wire Line
-	1150 2250 1650 2250
-Wire Wire Line
-	1650 2250 1650 2350
-Wire Wire Line
-	1150 2350 1550 2350
-Wire Wire Line
-	1550 2350 1550 2450
-NoConn ~ 1150 2650
 $Comp
 L Connector:Conn_01x01_Female J1
 U 1 1 6089A9FB
@@ -67,44 +321,13 @@ F 3 "~" H 2500 1050 50  0001 C CNN
 	1    2500 1050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x01_Male J2
-U 1 1 6089B7C0
-P 950 1650
-F 0 "J2" H 1058 1831 50  0000 C CNN
-F 1 "cell_-" H 1058 1740 50  0000 C CNN
-F 2 "telec:Castellated_1x01_P5.08mm_Double" H 950 1650 50  0001 C CNN
-F 3 "~" H 950 1650 50  0001 C CNN
-	1    950  1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 1650 1750 1650
-Wire Wire Line
-	1750 1650 1750 1500
-Wire Wire Line
-	1750 1200 1750 1050
-Wire Wire Line
-	1750 1050 2050 1050
 Wire Wire Line
 	2050 1950 2050 1050
-Connection ~ 2050 1050
 Wire Wire Line
 	2050 1050 2300 1050
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 608A3145
-P 750 700
-F 0 "H1" H 850 746 50  0000 L CNN
-F 1 "MountingHole" H 850 655 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2mm" H 750 700 50  0001 C CNN
-F 3 "~" H 750 700 50  0001 C CNN
-	1    750  700 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H2
-U 1 1 608A3E96
+U 1 1 608CC7DF
 P 2700 700
 F 0 "H2" H 2800 746 50  0000 L CNN
 F 1 "MountingHole" H 2800 655 50  0000 L CNN
@@ -114,19 +337,8 @@ F 3 "~" H 2700 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
-U 1 1 608A4863
-P 700 5100
-F 0 "H3" H 800 5146 50  0000 L CNN
-F 1 "MountingHole" H 800 5055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2mm" H 700 5100 50  0001 C CNN
-F 3 "~" H 700 5100 50  0001 C CNN
-	1    700  5100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H4
-U 1 1 608A5327
+U 1 1 608CC7E1
 P 2800 5100
 F 0 "H4" H 2900 5146 50  0000 L CNN
 F 1 "MountingHole" H 2900 5050 50  0000 L CNN
@@ -135,25 +347,6 @@ F 3 "~" H 2800 5100 50  0001 C CNN
 	1    2800 5100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x08_Male J3
-U 1 1 6088705C
-P 950 2250
-F 0 "J3" H 1100 2750 50  0000 R CNN
-F 1 "bal_even_left" H 1250 2650 50  0000 R CNN
-F 2 "telec:Castellated_1x08_P2.54mm" H 950 2250 50  0001 C CNN
-F 3 "~" H 950 2250 50  0001 C CNN
-	1    950  2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 2450 1450 2450
-Wire Wire Line
-	1450 2450 1450 2550
-Wire Wire Line
-	1150 2550 1350 2550
-Wire Wire Line
-	1350 2550 1350 2650
 $Comp
 L Device:Battery_Cell BT2
 U 1 1 608C1470
@@ -203,7 +396,7 @@ Wire Wire Line
 	4400 1500 4400 1650
 $Comp
 L Mechanical:MountingHole H6
-U 1 1 608C14B2
+U 1 1 608CC7E6
 P 3500 700
 F 0 "H6" H 3600 746 50  0000 L CNN
 F 1 "MountingHole" H 3600 655 50  0000 L CNN
@@ -214,7 +407,7 @@ F 3 "~" H 3500 700 50  0001 C CNN
 $EndComp
 $Comp
 L Mechanical:MountingHole H7
-U 1 1 608C14B8
+U 1 1 608CC7E7
 P 5450 700
 F 0 "H7" H 5550 746 50  0000 L CNN
 F 1 "MountingHole" H 5550 655 50  0000 L CNN
@@ -225,7 +418,7 @@ F 3 "~" H 5450 700 50  0001 C CNN
 $EndComp
 $Comp
 L Mechanical:MountingHole H5
-U 1 1 608C14BE
+U 1 1 608CC7E8
 P 3500 5100
 F 0 "H5" H 3600 5146 50  0000 L CNN
 F 1 "MountingHole" H 3600 5055 50  0000 L CNN
@@ -249,66 +442,23 @@ Wire Wire Line
 	4150 3500 4150 3600
 Wire Wire Line
 	4050 3600 4050 3700
-Connection ~ 2250 3100
 Wire Wire Line
 	2250 3600 4050 3600
-Connection ~ 2250 3200
 Wire Wire Line
 	2250 3500 4150 3500
-Connection ~ 2250 3300
 Wire Wire Line
 	2250 3400 4250 3400
-Connection ~ 2250 3400
 Wire Wire Line
 	2250 3300 4350 3300
-Connection ~ 2250 3500
 Wire Wire Line
 	2250 3200 4450 3200
-Connection ~ 2250 3600
 Wire Wire Line
 	2250 3100 4550 3100
 Wire Wire Line
 	2250 3000 4650 3000
-Wire Wire Line
-	1150 3700 2250 3700
-Wire Wire Line
-	1150 3600 2250 3600
-Wire Wire Line
-	1150 3500 2250 3500
-Wire Wire Line
-	1150 3400 2250 3400
-Wire Wire Line
-	1150 3300 2250 3300
-Wire Wire Line
-	1150 3200 2250 3200
-Wire Wire Line
-	1150 3100 2250 3100
-Wire Wire Line
-	1150 3000 2250 3000
 Connection ~ 2250 1950
-Connection ~ 2250 2050
-Connection ~ 2250 2150
-Connection ~ 2250 2250
-Connection ~ 2250 2350
-Connection ~ 2250 2450
-Connection ~ 2250 2550
-Connection ~ 2250 2650
-Wire Wire Line
-	1950 2050 2250 2050
-Wire Wire Line
-	1850 2150 2250 2150
-Wire Wire Line
-	1750 2250 2250 2250
-Wire Wire Line
-	1650 2350 2250 2350
-Wire Wire Line
-	1550 2450 2250 2450
 Wire Wire Line
 	2050 1950 2250 1950
-Wire Wire Line
-	1450 2550 2250 2550
-Wire Wire Line
-	1350 2650 2250 2650
 Connection ~ 2300 1050
 Wire Wire Line
 	2300 1050 4400 1050
@@ -325,7 +475,7 @@ F 3 "~" V 7250 1460 50  0001 C CNN
 $EndComp
 $Comp
 L Connector:Conn_01x08_Female J10
-U 1 1 6098DE94
+U 1 1 608CC7EF
 P 7950 2250
 F 0 "J10" H 7800 2750 50  0000 L CNN
 F 1 "bal_even_right" H 7600 2650 50  0000 L CNN
@@ -429,7 +579,7 @@ $Comp
 L Connector:Conn_01x08_Female J14
 U 1 1 6098DEEC
 P 10650 2250
-F 0 "J14" H 10500 2750 50  0000 L CNN
+F 0 "J14" H 10600 3000 50  0000 L CNN
 F 1 "bal_odd_right" H 10350 2650 50  0000 L CNN
 F 2 "telec:Castellated_1x08_P2.54mm" H 10650 2250 50  0001 C CNN
 F 3 "~" H 10650 2250 50  0001 C CNN
@@ -460,8 +610,8 @@ $Comp
 L Connector:Conn_01x01_Female J13
 U 1 1 6098DEFC
 P 10650 1650
-F 0 "J13" H 10500 1850 50  0000 L CNN
-F 1 "cell_+" H 10450 1750 50  0000 L CNN
+F 0 "J13" H 10500 1750 50  0000 L CNN
+F 1 "cell_+" H 10650 1550 50  0000 L CNN
 F 2 "telec:Castellated_1x01_P5.08mm_Double" H 10650 1650 50  0001 C CNN
 F 3 "~" H 10650 1650 50  0001 C CNN
 	1    10650 1650
@@ -475,7 +625,7 @@ Wire Wire Line
 	10450 3000 10250 3000
 $Comp
 L Mechanical:MountingHole H14
-U 1 1 6098DF05
+U 1 1 608CC7F5
 P 9000 700
 F 0 "H14" H 9100 746 50  0000 L CNN
 F 1 "MountingHole" H 9100 655 50  0000 L CNN
@@ -527,7 +677,7 @@ Wire Wire Line
 	9550 3700 10450 3700
 $Comp
 L Connector:Conn_01x08_Female J11
-U 1 1 6098DF21
+U 1 1 608CC7F7
 P 7950 3300
 F 0 "J11" H 7800 3800 50  0000 L CNN
 F 1 "bal_odd_right" H 7650 3700 50  0000 L CNN
@@ -706,7 +856,6 @@ F 3 "~" H 5150 3300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4400 1650 4800 1650
-Connection ~ 2250 3000
 Connection ~ 4950 3700
 Wire Wire Line
 	4950 3000 4800 3000
@@ -717,28 +866,6 @@ Connection ~ 4800 1650
 Wire Wire Line
 	4800 1650 4950 1650
 Connection ~ 7750 3000
-$Comp
-L Device:Battery_Cell BT1
-U 1 1 60AD9DEB
-P 1750 1400
-F 0 "BT1" H 1868 1496 50  0000 L CNN
-F 1 "Battery_Cell" V 1550 1250 50  0000 L CNN
-F 2 "telec:Cell_18650" V 1750 1460 50  0001 C CNN
-F 3 "~" V 1750 1460 50  0001 C CNN
-	1    1750 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x08_Male J16
-U 1 1 608CBEEC
-P 950 4350
-F 0 "J16" H 1058 4831 50  0000 C CNN
-F 1 "communication" H 1058 4740 50  0000 C CNN
-F 2 "telec:DualSide_2x05_P1.27mm_Vertical_SMD" H 950 4350 50  0001 C CNN
-F 3 "~" H 950 4350 50  0001 C CNN
-	1    950  4350
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:Conn_01x08_Female J6
 U 1 1 60887DCA
@@ -752,7 +879,7 @@ F 3 "~" H 2450 3300 50  0001 C CNN
 $EndComp
 $Comp
 L Connector:Conn_01x08_Female J17
-U 1 1 60902C2A
+U 1 1 608CC7EB
 P 2450 4350
 F 0 "J17" H 2300 4850 50  0000 L CNN
 F 1 "communication" H 1950 4750 50  0000 L CNN
@@ -763,7 +890,7 @@ F 3 "~" H 2450 4350 50  0001 C CNN
 $EndComp
 $Comp
 L Connector:Conn_01x08_Female J18
-U 1 1 6090A814
+U 1 1 608CC7EC
 P 5150 4350
 F 0 "J18" H 5000 4850 50  0000 L CNN
 F 1 "communication" H 4650 4750 50  0000 L CNN
@@ -796,18 +923,12 @@ F 3 "~" H 10650 4350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10450 4750 7750 4750
-Connection ~ 2250 4750
-Wire Wire Line
-	2250 4750 1150 4750
 Connection ~ 4950 4750
 Wire Wire Line
 	4950 4750 2250 4750
 Connection ~ 7750 4750
 Wire Wire Line
 	7750 4750 4950 4750
-Wire Wire Line
-	1150 4650 2250 4650
-Connection ~ 2250 4650
 Wire Wire Line
 	2250 4650 4950 4650
 Connection ~ 4950 4650
@@ -818,18 +939,12 @@ Wire Wire Line
 	7750 4650 10450 4650
 Wire Wire Line
 	10450 4550 7750 4550
-Connection ~ 2250 4550
-Wire Wire Line
-	2250 4550 1150 4550
 Connection ~ 4950 4550
 Wire Wire Line
 	4950 4550 2250 4550
 Connection ~ 7750 4550
 Wire Wire Line
 	7750 4550 4950 4550
-Wire Wire Line
-	1150 4450 2250 4450
-Connection ~ 2250 4450
 Wire Wire Line
 	2250 4450 4950 4450
 Connection ~ 4950 4450
@@ -840,18 +955,12 @@ Wire Wire Line
 	7750 4450 10450 4450
 Wire Wire Line
 	10450 4350 7750 4350
-Connection ~ 2250 4350
-Wire Wire Line
-	2250 4350 1150 4350
 Connection ~ 4950 4350
 Wire Wire Line
 	4950 4350 2250 4350
 Connection ~ 7750 4350
 Wire Wire Line
 	7750 4350 4950 4350
-Wire Wire Line
-	1150 4250 2250 4250
-Connection ~ 2250 4250
 Wire Wire Line
 	2250 4250 4950 4250
 Connection ~ 4950 4250
@@ -862,18 +971,12 @@ Wire Wire Line
 	7750 4250 10450 4250
 Wire Wire Line
 	10450 4150 7750 4150
-Connection ~ 2250 4150
-Wire Wire Line
-	2250 4150 1150 4150
 Connection ~ 4950 4150
 Wire Wire Line
 	4950 4150 2250 4150
 Connection ~ 7750 4150
 Wire Wire Line
 	7750 4150 4950 4150
-Wire Wire Line
-	1150 4050 2250 4050
-Connection ~ 2250 4050
 Wire Wire Line
 	2250 4050 4950 4050
 Connection ~ 4950 4050
@@ -882,4 +985,13 @@ Wire Wire Line
 Connection ~ 7750 4050
 Wire Wire Line
 	7750 4050 10450 4050
+Connection ~ 2050 1050
+Connection ~ 2250 4050
+Connection ~ 2250 4150
+Connection ~ 2250 4250
+Connection ~ 2250 4350
+Connection ~ 2250 4450
+Connection ~ 2250 4550
+Connection ~ 2250 4650
+Connection ~ 2250 4750
 $EndSCHEMATC
