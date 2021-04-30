@@ -6,6 +6,7 @@ cells = 7;
 
 include <custom_modules.scad>
 
+color("DarkRed")
 translate([radius, radius]){
     difference(){
         border();
@@ -14,4 +15,4 @@ translate([radius, radius]){
     bottom_plate();
 }
 
-translate([38, 96.5, 6]) import("../kicad/four_pack/four_cells.stl");
+translate([38, 95.5, 6]) color("Green") import("../kicad/four_pack/four_cells.stl");
