@@ -24,4 +24,4 @@ https://www.ti.com/tool/BQSTUDIO#downloads
 
 ## BuBo
 
--
+- LT1618 - $1.86 - DFN-10/MSOP-10 - CC/CV 1.6V/18V to 35V BuBo 500mA

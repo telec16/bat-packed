@@ -26,10 +26,9 @@ For our project the big chippy seems the best.
 Proposed gang:
 
 - BQ76942 (monitoring/balancing/protecting) $1.8
-- LTC4162-L (charger) $3
-- MC33063 (boost 5V -> 35V) $0.2
+- LTC1618 (boost + CC/CV) $1.86
 
-Total: $5 + external components
+Total: $4 + external components
 
 # Microcontroller and communication
 
