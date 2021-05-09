@@ -26,7 +26,7 @@ For our project the big chippy seems the best.
 Proposed gang:
 
 - BQ76942 (monitoring/balancing/protecting) $1.8
-- LTC1618 (boost + CC/CV) $1.86
+- LT1618 (boost + CC/CV) $1.86
 
 Total: $4 + external components
 
