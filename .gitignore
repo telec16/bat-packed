@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/kicad
-# Edit at https://www.toptal.com/developers/gitignore?templates=kicad
+# Created by https://www.toptal.com/developers/gitignore/api/kicad,ltspice
+# Edit at https://www.toptal.com/developers/gitignore?templates=kicad,ltspice
 
 ### KiCad ###
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
@@ -39,5 +39,18 @@ bom/
 # Gerber export output
 gerber/
 
-# End of https://www.toptal.com/developers/gitignore/api/kicad
+### LTspice ###
+# gitignore template for LTspice
+# website: https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html
+
+# Logfile
+*.log
+
+# Simulation Outputs
+*.raw
+*.fft
+
+# Netlist
+
+# End of https://www.toptal.com/developers/gitignore/api/kicad,ltspice
 
