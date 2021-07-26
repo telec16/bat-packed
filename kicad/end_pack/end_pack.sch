@@ -994,4 +994,37 @@ Connection ~ 2250 4450
 Connection ~ 2250 4550
 Connection ~ 2250 4650
 Connection ~ 2250 4750
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO1
+U 1 1 60FFA3B6
+P 7300 6850
+F 0 "LOGO1" H 7300 7125 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 7300 6625 50  0001 C CNN
+F 2 "logo:batpacked-24" H 7300 6850 50  0001 C CNN
+F 3 "~" H 7300 6850 50  0001 C CNN
+	1    7300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO3
+U 1 1 60FFBE01
+P 7850 6800
+F 0 "LOGO3" H 7850 7075 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 7850 6575 50  0001 C CNN
+F 2 "logo:batpacked-24" H 7850 6800 50  0001 C CNN
+F 3 "~" H 7850 6800 50  0001 C CNN
+	1    7850 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO2
+U 1 1 60FFC411
+P 8550 6700
+F 0 "LOGO2" H 8550 6975 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 8550 6475 50  0001 C CNN
+F 2 "logo:batpacked-24" H 8550 6700 50  0001 C CNN
+F 3 "~" H 8550 6700 50  0001 C CNN
+	1    8550 6700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
