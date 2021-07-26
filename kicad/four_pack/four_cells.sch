@@ -894,10 +894,10 @@ F 3 "~" H 7350 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small LOGO?
+L Graphic:Logo_Open_Hardware_Small LOGO2
 U 1 1 610045D6
 P 7850 6850
-F 0 "LOGO?" H 7850 7125 50  0001 C CNN
+F 0 "LOGO2" H 7850 7125 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 7850 6625 50  0001 C CNN
 F 2 "logo:batpacked-24" H 7850 6850 50  0001 C CNN
 F 3 "~" H 7850 6850 50  0001 C CNN
@@ -905,10 +905,10 @@ F 3 "~" H 7850 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small LOGO?
+L Graphic:Logo_Open_Hardware_Small LOGO3
 U 1 1 61004A09
 P 8400 6850
-F 0 "LOGO?" H 8400 7125 50  0001 C CNN
+F 0 "LOGO3" H 8400 7125 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 8400 6625 50  0001 C CNN
 F 2 "logo:batpacked-24" H 8400 6850 50  0001 C CNN
 F 3 "~" H 8400 6850 50  0001 C CNN
@@ -916,10 +916,10 @@ F 3 "~" H 8400 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small LOGO?
+L Graphic:Logo_Open_Hardware_Small LOGO4
 U 1 1 61004EF1
 P 9200 6900
-F 0 "LOGO?" H 9200 7175 50  0001 C CNN
+F 0 "LOGO4" H 9200 7175 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 9200 6675 50  0001 C CNN
 F 2 "logo:batpacked-24" H 9200 6900 50  0001 C CNN
 F 3 "~" H 9200 6900 50  0001 C CNN
